@@ -1,9 +1,9 @@
-/**
+/** Arda Menşur – 2585214 , Muhammet Sait Bozdemir – 2584738
 We read and accept the submission rules and the extra rules specified in each question. This is our own work that is done by us only **/
 #include <iostream>
 #include <ctime>
 #include "Grid.h"
-
+/** We created main together **/
 using namespace std;
 int main() {
     char exit = 'N';
