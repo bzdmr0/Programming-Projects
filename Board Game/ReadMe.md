@@ -1,4 +1,4 @@
-#This is the last assignment of the Programming Language Concepts course. We did it with Arda Menşur. The description of the assignment is in the .pdf file.
+This is the last assignment of the Programming Language Concepts course. We did it with Arda Menşur. The description of the assignment is in the .pdf file.
 
 Strategy games typically focus on players' decision-making abilities, often requiring internal decision tree-like thinking and a good sense of situational awareness. On the other hand, board games revolve around pieces or counters moved or positioned on a designated surface, or "board," following a predefined set of rules. While strategic skills are essential for most board games, there is room to incorporate chance elements into their gameplay. Notable examples of strategy board games include Risk, Game of Thrones: The Board Game, Puerto Rico, and Diplomacy.
 
