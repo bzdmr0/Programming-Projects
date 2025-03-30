@@ -3,7 +3,7 @@ We read and accept the submission rules and the extra rules specified in each qu
 #include <iostream>
 #include <ctime>
 #include "Grid.h"
-/** We created main together **/
+
 using namespace std;
 int main() {
     char exit = 'N';
