@@ -1,0 +1,7 @@
+It is an MATLAB codingassignment and here is te description of assignment.
+
+Description: You are required to identify the number of eggs in the image, for instance, if the input image is the one above, then your algorithm should identify the number of eggs as 1.5. Ten different plate images have already been provided to you. To find out the number of eggs in the image, you first need to segment the eggs. Your algorithm should not be specific for the images provided to you (it should work with eggs at different locations, with different egg sizes and different egg colors. For segmentation, you are free to choose any algorithm explained in the lecture notes. However, to find out the number of eggs in the image, you are only allowed to design an algorithm based on Morphology. Implement your solution as a MATLAB script named A3_StudentID.m which processes the image. After running the script, two figures should be created; Figure 1: Showing all of the steps of your algorithm and
+Figure 2: Showing the final segmented image and the number of eggs in the image as a title.
+You should submit only one m file (as a function) which will work by just calling this function with the input image and producing the two figures mentioned above. This file should also include the following;
+• Function for segmentation: The input will be the original image and the output will be the segmented image.
+• Function for finding out the numbers: The input will be a segmented image and the output will be the number of eggs in the image.
