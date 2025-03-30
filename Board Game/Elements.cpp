@@ -1,5 +1,3 @@
-/** Arda Menşur – 2585214 , Muhammet Sait Bozdemir – 2584738
-We read and accept the submission rules and the extra rules specified in each question. This is our own work that is done by us only **/
 #include "Elements.h"
 
 
