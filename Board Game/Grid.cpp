@@ -1,5 +1,4 @@
-/** Arda Menşur – 2585214 , Muhammet Sait Bozdemir – 2584738
-We read and accept the submission rules and the extra rules specified in each question. This is our own work that is done by us only **/
+
 #include "Grid.h"
 
 
@@ -127,7 +126,7 @@ int Grid::getHealthP1(){ return p1->getHealth();}
 int Grid::getHealthP2(){ return p2->getHealth();}
 int Grid::getScoreP1(){ return p1->getGoldCount()*100;}
 int Grid::getScoreP2(){ return p2->getGoldCount()*100;}
-//created by Arda
+
 void Grid::deploy_elements(){ // Hocam, instead of deleting the visible board parts, we deliberately put them in the comment line. We think it's useful for checking and editing.
     srand(time(nullptr));
     int shape,posV,posH; // posV= Vertical coordinates, posH= Horizontal coordinates
@@ -300,7 +299,7 @@ void Grid::deploy_elements(){ // Hocam, instead of deleting the visible board pa
         } while (loop==1);
     }
 }
-//created by Sait
+
 void Grid::movement(int V, int H,int turn){ //The movement function that contains all player movements and facings.
     char choice;
     srand(time(nullptr));
@@ -420,12 +419,11 @@ void Grid::movement(int V, int H,int turn){ //The movement function that contain
             cout << "There is nothing here." << endl;
     }
 }
-// created by Arda
+
 bool Grid::isavailable(int V,int H){ // To check whether a position of movement was visited or not. Player can only visit once for all positions.
     if(visibleBoard[V][H]==" [  ] ") return true;
     else return false;
 }
-//Created by Sait
 bool Grid::isEnd(int totalTurn,int turn){ // To check game is over or not for given scenarios.
 
     if(totalTurn==turn)//Number of turn over
@@ -436,7 +434,6 @@ bool Grid::isEnd(int totalTurn,int turn){ // To check game is over or not for gi
         return true;
     return false;
 }
-//Created by Arda
 void Grid::behind(int V,int H){ // After a move we put a sign to previous position.
     if(board[V][H]== nullptr)
         visibleBoard[V][H] = " [X] "; // Visited position was empty
@@ -453,7 +450,6 @@ void Grid::behind(int V,int H){ // After a move we put a sign to previous positi
     else
         visibleBoard[V][H] = " [S] ";
 }
-//Created by Sait
 void Grid::printBoard(int turn,int totalturn){ //Game map & stats
     cout<<"-------------------------------------------------------------------"<<endl;
     cout<<"Turn -> "<<turn<<"/"<<totalturn<<endl;
@@ -471,7 +467,6 @@ void Grid::printBoard(int turn,int totalturn){ //Game map & stats
     }
     cout<<"-------------------------------------------------------------------"<<endl;
 }
-//We created together.
 bool Grid::isEmpty(int posH, int posV){ // To check whether a position of an element is empty or not before deploying it
     if(board[posV][posH] == nullptr)
         return true;
