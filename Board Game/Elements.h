@@ -1,5 +1,4 @@
-/** Arda Menşur – 2585214 , Muhammet Sait Bozdemir – 2584738
-We read and accept the submission rules and the extra rules specified in each question. This is our own work that is done by us only **/
+
 #ifndef INC_242ASSIGNMENT3_ELEMENTS_H
 #define INC_242ASSIGNMENT3_ELEMENTS_H
 
@@ -7,7 +6,7 @@ We read and accept the submission rules and the extra rules specified in each qu
 #include <string>
 #include <cmath>
 using namespace std;
-/** We created this class together **/
+
 class Elements {
 protected:
     int size;
