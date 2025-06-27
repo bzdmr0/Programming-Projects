@@ -4,4 +4,4 @@ Image Classification: The main purpose of image classification is to determine t
 
 Design Requirements: You are required to implement the aforementioned image classification system
 
-For the sake of simplicity, I have added only 30 images from the dataset of 908 images.
+For the sake of simplicity, I have added only 105 images from the dataset of 908 images.
