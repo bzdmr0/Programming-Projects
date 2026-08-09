@@ -1,7 +1,20 @@
-Description: In this assignment, you are required to implement an image classification system based on deep learning methods and to evaluate it with the provided dataset. The text continues with detailed explanations of the methods and requirements.
+# View Classification
 
-Image Classification: The main purpose of image classification is to determine the class label of a query image. The classification is done by evaluating the semantic contents of the query image. However, there is difficulty in revealing the semantics of images due to the semantic gap. To overcome this difficulty, images are described as feature vectors which are higher-level representations than collections of numbers. With these feature vectors, image classification can be formulated as a learning problem to match an image representation with the class label. In this assignment, you are required to construct a fully connected feed-forward neural network with a nonlinearity function (ReLU) between layers and train it with an optimizer (Batch (Vanilla) Gradient Descent) using the extracted feature vectors. While training the fully connected feed-forward neural network you are required to use the SoftMax (Cross-Entropy Loss) function to minimize the difference between the actual class label and the estimated one.
+## Assignment Context
 
-Design Requirements: You are required to implement the aforementioned image classification system
+In this assignment, you implement an image classification system using deep learning methods and evaluate it with the provided dataset.
 
-For the sake of simplicity, There are only 105 images from the dataset of 908 images.
+## Project Overview
+
+The task is to classify query images by learning from extracted feature vectors.
+
+## Required Method
+
+The assignment specifies a fully connected feed-forward neural network with:
+- **ReLU** nonlinearity between layers
+- **Batch (Vanilla) Gradient Descent** for optimization
+- **SoftMax (Cross-Entropy Loss)** for training objective
+
+## Dataset Note
+
+For simplicity, the assignment uses **105 images** from an original dataset of **908 images**.
