@@ -1,4 +1,15 @@
-This is the third assignment of C Programming course
+# MemoME
 
-In this assignment, you are going to implement a simplified two-player memory game. The main purpose of the game is to have characters hidden behind doors represented on a square board and the players can open doors two at a time to find the matching ones. 
-If they open two doors and they do not match, then they will lose points. Whoever finds the most matching pairs will win the game.
+## Assignment Context
+
+This is the third assignment of the C Programming course.
+
+## Project Overview
+
+In this assignment, you implement a simplified two-player memory game on a square board. Characters are hidden behind doors, and players open two doors at a time to find matching pairs.
+
+## Core Rules
+
+- If a player opens two matching doors, they score.
+- If the opened doors do not match, the player loses points.
+- The player with the most matching pairs wins.
